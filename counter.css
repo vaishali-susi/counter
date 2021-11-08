@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    margin-left: 40%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0 0;
+}
+
+.main{
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    background-color: pink;
+padding: 10px;
+border-radius: 30px;
+font-size: large;
+
+}
+#one{
+    height: 50px;
+    width: 100px;
+    background-color: skyblue;
+    border-radius: 20px;
+    border-style: none;
+    font-size: large;
+}
